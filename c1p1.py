@@ -14,13 +14,12 @@ for i in range(5):
     #get the current minute from datetime module
     this_minute = datetime.today().minute
 
-    print (this_minute)
     #if-else suite
     if this_minute in odd_numbers:
-        print ('this is an odd minute')
+        print (this_minute, 'is an odd minute')
     else:
-        print ('this is an even minute')
+        print (this_minute,'is an even minute')
 
     #put for loop to sleep for some random seconds
-    print (random_number)
+    print (random_number,'is the random number')
     time.sleep(random_number)
