@@ -44,4 +44,6 @@ print('letters[:10]',letters[:10])
 # print every second letters
 print('letters[::2]',letters[::2])
 
-
+# printing list in reverse order
+print('letters[::-1]',letters[::-1])
+print('above list in string',''.join(letters[::-1]))
