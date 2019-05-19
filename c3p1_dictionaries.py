@@ -14,3 +14,7 @@ print(found)
 # now if we want to print it in a better way then
 for kv in found:
     print(kv,':',found[kv])
+
+# another way to print it
+for k,v in found.items():
+    print(k,':',v)
