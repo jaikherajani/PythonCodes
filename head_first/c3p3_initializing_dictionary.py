@@ -24,3 +24,11 @@ if 'oranges' not in fruits:
 fruits['oranges'] +=1
 
 print(fruits)
+
+# there's a built-in method as well for this which can be used with 'in' or 'not in'
+# whatever suitable
+if 'mangoes' not in fruits:
+    fruits.setdefault('mangoes',0)
+fruits['mangoes'] += 1
+
+print(fruits)
